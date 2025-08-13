@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eco Badger | Construction & Consultation</title>
+  <meta name="description" content="Eco Badger – modern, sustainable construction & consultation services." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./assets/logo.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a class="brand" href="#home" aria-label="Eco Badger home">
+        <img class="brand-mark" src="./assets/logo.svg" alt="" width="32" height="32" />
+        <span class="brand-name">Eco Badger</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn btn--sm">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="container grid-2">
+        <div class="hero-copy reveal">
+          <h1>Bold. Minimalist. Tech‑Savvy Construction.</h1>
+          <p>We deliver modern, sustainable builds and clear consultation—on time, on budget, with craftsmanship that lasts.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#contact">Start your project</a>
+            <a class="btn btn--ghost" href="#projects">View our work</a>
+          </div>
+        </div>
+        <div class="hero-art reveal" aria-hidden="true">
+          <svg viewBox="0 0 400 320" role="img" aria-label="Abstract architectural illustration">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="var(--brand-600)"/>
+                <stop offset="100%" stop-color="var(--brand-400)"/>
+              </linearGradient>
+            </defs>
+            <rect x="0" y="0" width="400" height="320" rx="24" fill="var(--surface-200)"/>
+            <rect x="32" y="48" width="336" height="40" rx="8" fill="url(#g1)" opacity="0.9"/>
+            <rect x="32" y="112" width="200" height="160" rx="12" fill="var(--surface-100)"/>
+            <rect x="248" y="112" width="120" height="72" rx="12" fill="var(--brand-100)"/>
+            <rect x="248" y="200" width="120" height="72" rx="12" fill="var(--brand-200)"/>
+            <circle cx="332" cy="68" r="8" fill="white" opacity="0.9"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container grid-2">
+        <div class="reveal">
+          <h2>About Eco Badger</h2>
+          <p>Eco Badger is a construction and consulting company focused on sustainable building, clear communication, and dependable delivery. From concept to handover, we bring structure, precision, and an eco‑first mindset.</p>
+          <ul class="ticks">
+            <li>Quality craftsmanship & modern techniques</li>
+            <li>Honest timelines and transparent budgets</li>
+            <li>Energy‑efficient, sustainable materials</li>
+          </ul>
+        </div>
+        <div class="about-card reveal">
+          <div class="about-stat">
+            <span class="stat-num" data-count="50">0</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="about-stat">
+            <span class="stat-num" data-count="12">0</span>
+            <span class="stat-label">Years Combined Experience</span>
+          </div>
+          <div class="about-stat">
+            <span class="stat-num" data-count="98">0</span>
+            <span class="stat-label">% On‑time Delivery</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section section--tint">
+      <div class="container">
+        <h2 class="reveal">Services</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="icon">
+              <!-- Hammer Icon -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M2 21l9-9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M17 8l-3-3 3-3 4 4-3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+              </svg>
+            </div>
+            <h3>Construction</h3>
+            <p>Residential, commercial, and fit‑outs—from groundworks to finishing, executed with precision.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">
+              <!-- Ruler Icon -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 17l11-11 4 4-11 11H3v-4z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M14 6l4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 8l2 2M10 10l2 2M8 12l2 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Consultation</h3>
+            <p>Feasibility, budgeting, materials, and sustainability advice to steer your project right.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">
+              <!-- Helmet Icon -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 13a8 8 0 0116 0v4H4v-4z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <path d="M2 17h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Project Management</h3>
+            <p>Clear schedules, accountable teams, and proactive risk control from start to finish.</p>
+          </article>
+          <article class="card reveal">
+            <div class="icon">
+              <!-- Home Icon -->
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 11l9-7 9 7v8a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2v-8z" stroke="currentColor" stroke-width="2" fill="none"/>
+              </svg>
+            </div>
+            <h3>Renovations</h3>
+            <p>Upgrades, extensions, and energy‑efficiency retrofits that add comfort and value.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="reveal">Projects</h2>
+        <div class="projects-grid">
+          <!-- Repeatable project card -->
+          <article class="project reveal">
+            <figure class="project-media">
+              <img loading="lazy" src="./assets/project-placeholder.svg" alt="Residential build exterior" />
+            </figure>
+            <div class="project-body">
+              <h3>Green Villa Extension</h3>
+              <p>Energy‑efficient extension using insulated panels and natural lighting.</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <figure class="project-media">
+              <img loading="lazy" src="./assets/project-placeholder.svg" alt="Office interior fit-out" />
+            </figure>
+            <div class="project-body">
+              <h3>Tech Office Fit‑Out</h3>
+              <p>Minimalist workspace with acoustic treatment and modular layouts.</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <figure class="project-media">
+              <img loading="lazy" src="./assets/project-placeholder.svg" alt="Retail renovation" />
+            </figure>
+            <div class="project-body">
+              <h3>Retail Renovation</h3>
+              <p>Fast‑track refit with durable finishes and optimized customer flow.</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <figure class="project-media">
+              <img loading="lazy" src="./assets/project-placeholder.svg" alt="Eco-home interior" />
+            </figure>
+            <div class="project-body">
+              <h3>Eco Home Interior</h3>
+              <p>Warm textures, low‑VOC paints, and smart lighting controls.</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <figure class="project-media">
+              <img loading="lazy" src="./assets/project-placeholder.svg" alt="Apartment refurbishment" />
+            </figure>
+            <div class="project-body">
+              <h3>Apartment Refurb</h3>
+              <p>Efficient storage, improved daylight, and energy‑saving fixtures.</p>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <figure class="project-media">
+              <img loading="lazy" src="./assets/project-placeholder.svg" alt="Community centre build" />
+            </figure>
+            <div class="project-body">
+              <h3>Community Centre</h3>
+              <p>Durable, low‑maintenance materials with accessible design.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--tint">
+      <div class="container grid-2">
+        <div class="reveal">
+          <h2>Contact</h2>
+          <p>Let’s discuss your project. We’ll reply within 1–2 business days.</p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:your-email@example.com">your-email@example.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+254700000000">+254 700 000 000</a></li>
+            <li><strong>Location:</strong> Nairobi, Kenya</li>
+          </ul>
+        </div>
+        <form class="contact-form reveal" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required placeholder="Your name" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required placeholder="Tell us about your project"></textarea>
+          </label>
+          <button class="btn" type="submit">Send</button>
+          <p class="form-note">Tip: For a full contact form with submissions, we can integrate Formspree or Netlify later.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <a class="brand" href="#home" aria-label="Eco Badger home">
+        <img class="brand-mark" src="./assets/logo.svg" alt="" width="28" height="28" />
+        <span class="brand-name">Eco Badger</span>
+      </a>
+      <p>© <span id="year"></span> Eco Badger. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
